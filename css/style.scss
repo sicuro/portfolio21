@@ -97,8 +97,8 @@ svg {
 
 @font-face {
     font-family: 'Larsseit';
-    src: url('/fonts/Larsseit-Bold.woff2') format('woff2'),
-        url('/fonts/Larsseit-Bold.woff') format('woff');
+    src: url('../../fonts/Larsseit-Bold.woff2') format('woff2'),
+        url('../../fonts/Larsseit-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -106,8 +106,8 @@ svg {
 
 @font-face {
     font-family: 'Larsseit';
-    src: url('/fonts/Larsseit-ExtraBold.woff2') format('woff2'),
-        url('/fonts/Larsseit-ExtraBold.woff') format('woff');
+    src: url('../../fonts/Larsseit-ExtraBold.woff2') format('woff2'),
+        url('../../fonts/Larsseit-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
