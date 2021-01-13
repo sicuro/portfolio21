@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/dist/style.css">
+    <link rel="stylesheet" href="./css/dist/swiper-bundle.min.css">
+    <title>Portfolio Gabriel Sicuro - Product Designer - a.k.a. sicuro</title>
+  </head>
+  <body>
+
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 logo"><a href="./index.html">Sicuro</a></div>
+          <div class="col-md-6  menu text-right" style="text-align: right;">
+            <img src="./img/menu.svg" class="acao-menu" onclick="menuAberto()">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="cases">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="apresentacao">
+                        <div class="row">
+                            <div class="col-md-4 img-case">
+                                <img src="./img/case-ev.png" alt="" >
+                            </div>
+                            <div class="col-md-8 box-case-info">
+                                <h1>Cadastro de acervo<br>livreiros Estante Virtual</h1>
+                                <p>Como transformar a experiência de cadastro de acervo simples e digital dentro de sebos tradicionais.</p>
+                                <div class="go-case-cta">                
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" onclick="goBack()">
+                                    <g id="seta" transform="translate(-21 -673)">
+                                      <rect id="Retângulo_1" data-name="Retângulo 1" width="48" height="48" rx="24" transform="translate(21 673)"/>
+                                      <path id="Caminho_1" data-name="Caminho 1" d="M36.686,694.083l8.876,8.876,8.876-8.876" transform="translate(-0.186 -1.583)" fill="none" stroke="#fff" stroke-width="2"/>
+                                    </g>
+                                  </svg> Ver case</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-detalhe none-bg">
+                                <h2>Problema</h2>
+                                <p>A Estante Virtual é uma plataforma de marketplace onde seus principais clientes são sebos. Um dos maiores problemas da Estante Virtual, está na parte onde onde o cliente (sebo), não consegue cadastrar de forma rápida todo o seu acervo. Com isso, somente cerva de 40% do acervo é disponibilizado na Estante Virtual.
+                                  <br><br>
+                                    Um dos principais fatores para isso acontecer, é a questão de tempo gasto para o cadastro na plataforma. Podendo ser cadastrado via computador ou pelo site em sua versão responsiva, que não era muito otimizada para dispositivos mobile.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-detalhe none-bg">
+                                <h2>Metas</h2>
+                                <ul>
+                                    <li>Aumento de disponibilização de acervo</li>
+                                    <li>Melhorar experiência de uso no cadastro de novos livros</li>
+                                    <li>Aumentar engajamento do lojista</li>
+                                    <li>Facilitar administração de acervo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="box-detalhe">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./img/ev_onboard1.png" style="width: 100%;" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./img/ev_onboard2.png" style="width: 100%;" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./img/ev_onboard3.png" style="width: 100%;" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./img/ev_login.png" style="width: 100%;" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mt-5 pt-5">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="box-detalhe none-bg">
+                                    <h2>Processo de pesquisa <br>
+                                        com o usuário</h2>
+                                    <p>Para identificar os maiores problemas até chegar a necessidade do desenvolvimento de um aplicativo para cadastro de acervo para os nossos lojistas, fizemos primeiramente um mapeamento de personas dos nossos usuários. Desde o usuário que é um vendedor ocasional até o super livreiro que possuía um acervo gigantesco, porém, não possuía força tecnológica para fazer uma conexão via API, por exemplo.
+                                        <br><br>
+                                        Com o mapeamento realizado, selecionamos alguns lojistas para realizarmos uma pesquisa sobre como era o dia-a-dia dele e como era a sua interação com a Estante Virtual, para conseguirmos entender suas diferentes perspectivas de jornadas.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="./img/ev_case_round.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="full-image-case">
+            <div class="ev">
+
+            </div>
+        </section>
+    </section>
+
+    <section class="extra">
+      <div class="bike" onclick="bikeAlerta()">
+        <p><img src="./img/bike.svg">+amor-motor</p>
+      </div>
+      <div class="fun-facts" onclick="funFact()">
+        <p><img src="./img/smile.svg" alt="">fun facts</p>
+      </div>
+    </section>
+
+
+    <div class="overlay-menu" id="fechar-menu-acao">
+      <div class="menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 menu-itens">
+              <ul>
+                <a href="./sobre.html"><li>Sobre <br><span>Me conheça um pouco mais</span></li></a>
+                <li>Cursos <br><span>Confira minhas vídeo aulas gratuitas</span></li>
+                <li>Contato <br><span>Pode mandar uma mensagem :)</span></li>
+              </ul>
+            </div>
+            <div class="col-md-6 menu-extra">
+              <div class="row">
+                <div class="col-12 close"> <img src="./img/close.svg" onclick="menuFechado()"></div>
+                <div class="col-12 social-menu align-self-end">Me encontre também no LinkedIn ou no Twitter.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay-bike" id="overlay-bike">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="bike-news">
+              <div class="col-12 close-bike text-right"><img src="./img/close.svg"  onclick="bikeAlertaClose()"></div>
+              <h2>A quantidade <br>
+                de atropelamentos <br>
+                de ciclistas cresceu <br>
+                57% em 2020.<br><br>
+                Atropelar ciclista<br>
+                não é acidente,<br>
+                é crime.</h2>
+                <span><img src="./img/bike-icon.svg" alt=""></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay-facts" id="overlay-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="fun-facts">
+              <div class="row">
+                <div class="col-md-10">
+                  <h2>Fun Facts</h2>
+                </div>
+                <div class="col-md-2 close-facts"><img src="./img/close-black.svg" onclick="funFactClose()"></div>
+                <div class="col-md-8 ">
+                  <p id="randTitle">Quanto mais as pessoas me conhecem, <br>
+                    mais elas sabem coisas inusitadas sobre mim.<br><br>
+                    
+                    Então, resolvi aproveitar para brincar com essas <br>
+                    curiosidades bastante perculiares da minha vida.<br><br>
+                    
+                    Enjoy.</p>
+                    
+                    <button onclick="shuffleTitle(); buttonClose()">Conta um Fun Fact aí</button>
+                    <button class="no-button" id="no-button" onclick="funFactClose()">Não tenho interesse</button>
+                </div>
+                <div class="col-md-4">
+                  <img src="https://pbs.twimg.com/profile_images/1037093877562392576/rkRIAXj4_400x400.jpg" class="img-fluid rounded-circle" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+          <svg height="30" width="30">
+            <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+          </svg>
+        </div>
+        
+        <div class="cursor__ball cursor__ball--small">
+          <svg height="10" width="10">
+            <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+          </svg>
+        </div>
+      </div>
+      
+      <!-- Optional JavaScript; choose one of the two! -->
+  
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+      <script src="./js/script.js"></script>
+
+
+  </body>
+</html>

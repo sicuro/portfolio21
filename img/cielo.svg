@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="29.862" viewBox="0 0 90 29.862">
+  <g id="cielo" transform="translate(-52.013 -433.49)">
+    <g id="g3034" transform="translate(52.013 433.49)">
+      <g id="Camada_x0020_1" transform="translate(0 0)">
+        <path id="path2993" d="M82.622,441.387c-5.5,5.007-12.431.151-12.139-5.375.217-4.107,4.444-8.441,9.823-6.312l1.956-4.53c-11.661-3.8-17.859,6.173-16.535,12.89,2.141,10.859,13.848,12.9,20.293,6.878Z" transform="translate(-65.55 -418.452)" fill="none" fill-rule="evenodd"/>
+        <path id="path2995" d="M198.379,445.485c.155-4.367-4.333-5.276-6.744-6.229l-1.956,4.479,3.964,1.75.1,15.032h4.582Z" transform="translate(-170.933 -431.121)" fill="none" fill-rule="evenodd"/>
+        <line id="line2997" y1="4.118" x2="2.574" transform="translate(36.145 23.836)" fill="none"/>
+        <path id="path2999" d="M307.478,538.022q5.041,2.656,8.752-.927l3.552,3.552c-5.265,4.081-9.092,4.373-14.878,1.493" transform="translate(-268.758 -514.186)" fill="none" fill-rule="evenodd"/>
+        <path id="path3001" d="M269.745,442.512a11.944,11.944,0,0,1,4.869-17.451,12.191,12.191,0,0,1,16.908,8.184Z" transform="translate(-237.203 -418.161)" fill="none" fill-rule="evenodd"/>
+        <path id="path3003" d="M299.957,463.977c-.083-8.175,8.549-10.32,12.458-5.354Z" transform="translate(-264.558 -445.315)" fill="none" fill-rule="evenodd"/>
+        <path id="path3005" d="M444.876,411.049l-.1-23.269h-4.53l.051,23.527c-.014,4.361,4.493,4.954,6.693,5.972l1.8-4.479Z" transform="translate(-383.659 -387.419)" fill="none" fill-rule="evenodd"/>
+        <path id="path3007" d="M519.144,479.124c-4.545,4.96-14.91-.686-11.171-8.288l-4.53-2.265c-5.05,11.435,7.848,23.04,18.945,14.157Z" transform="translate(-436.357 -456.009)" fill="none" fill-rule="evenodd"/>
+        <path id="path3009" d="M542.884,439.125c3.2-7.891-5.722-13.279-11.171-8.288l-3.346-3.707c8.981-8.017,24.374.546,19,14.106Z" transform="translate(-458.475 -418.198)" fill="none" fill-rule="evenodd"/>
+        <ellipse id="ellipse3011" cx="3.269" cy="3.243" rx="3.269" ry="3.243" transform="translate(21.834 0)" fill="none"/>
+        <path id="path3013" d="M82.622,441.387c-5.5,5.007-12.431.151-12.139-5.375.217-4.107,4.444-8.441,9.823-6.312l1.956-4.53c-11.661-3.8-17.859,6.173-16.535,12.89,2.141,10.859,13.848,12.9,20.293,6.878Z" transform="translate(-65.55 -418.452)" fill-rule="evenodd"/>
+        <path id="path3015" d="M193.642,445.485l.1,15.032h4.582l.051-15.032c.155-4.367-4.333-5.276-6.744-6.229l-1.956,4.479Z" transform="translate(-170.933 -431.121)" fill-rule="evenodd"/>
+        <path id="path3017" d="M274.613,425.059a11.944,11.944,0,0,0-4.869,17.451l21.776-9.267A12.191,12.191,0,0,0,274.613,425.059ZM272.6,436.821c-.083-8.175,8.549-10.32,12.458-5.354Z" transform="translate(-237.203 -418.159)" fill-rule="evenodd"/>
+        <path id="path3019" d="M316.23,537.095q-3.711,3.583-8.752.927L304.9,542.14c5.786,2.88,9.613,2.588,14.878-1.493Z" transform="translate(-268.758 -514.186)" fill-rule="evenodd"/>
+        <path id="path3021" d="M440.242,387.78l.051,23.527c-.014,4.361,4.493,4.954,6.692,5.972l1.8-4.479-3.913-1.75-.1-23.269Z" transform="translate(-383.659 -387.419)" fill-rule="evenodd"/>
+        <path id="path3023" d="M503.443,468.571c-5.05,11.435,7.848,23.04,18.945,14.157l-3.243-3.6c-4.545,4.96-14.91-.686-11.171-8.288Z" transform="translate(-436.357 -456.009)" fill-rule="evenodd"/>
+        <path id="path3025" d="M531.712,430.84c5.449-4.991,14.373.4,11.171,8.288l4.479,2.111c5.378-13.56-10.015-22.123-19-14.106Z" transform="translate(-458.474 -418.201)" fill="#01aef0" fill-rule="evenodd"/>
+        <path id="path3027" d="M213.4,391.877a3.243,3.243,0,1,0-3.269-3.243A3.256,3.256,0,0,0,213.4,391.877Z" transform="translate(-188.299 -385.39)" fill="#01aef0" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

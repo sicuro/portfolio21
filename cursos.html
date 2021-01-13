@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/dist/style.css">
+    <link rel="stylesheet" href="./css/dist/swiper-bundle.min.css">
+    <title>Portfolio Gabriel Sicuro - Product Designer - a.k.a. sicuro</title>
+  </head>
+  <body>
+
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 logo"><a href="./index.html">Sicuro</a></div>
+          <div class="col-md-6  menu text-right" style="text-align: right;">
+            <img src="./img/menu.svg" class="acao-menu" onclick="menuAberto()">
+          </div>
+        </div>
+      </div>
+    </header>
+
+   <section class="cursos">
+       <div class="container">
+           <div class="row">
+            <h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" onclick="goBack()">
+                    <g id="seta" transform="translate(-21 -673)">
+                      <rect id="Retângulo_1" data-name="Retângulo 1" width="48" height="48" rx="24" transform="translate(21 673)"/>
+                      <path id="Caminho_1" data-name="Caminho 1" d="M36.686,694.083l8.876,8.876,8.876-8.876" transform="translate(-0.186 -1.583)" fill="none" stroke="#fff" stroke-width="2"/>
+                    </g>
+                  </svg> Cursos</h1>
+            <div class="col-md-4  d-flex pb-4">
+                <div class="card-cursos  inner col">
+                    <div class="row w-100">
+                        <div class="col-12"><img src="./img/figma.svg" alt="" class="logo-curso"></div>
+                        <div class="col-6">
+                            <h2>Curso <br>Figma</h2>
+                        </div>
+                        <div class="col-6 ir-curso"><img src="./img/seta-baixo.svg" alt="Ir para curso""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4  d-flex pb-4">
+                <div class="card-cursos  inner col">
+                    <div class="row w-100">
+                        <div class="col-12"><img src="./img/principal.svg" alt="" class="logo-curso"></div>
+                        <div class="col-6">
+                            <h2>Curso <br>Principal</h2>
+                        </div>
+                        <div class="col-6 ir-curso"><img src="./img/seta-baixo.svg" alt="Ir para curso""></div>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </div>
+   </section>
+
+    <section class="extra">
+      <div class="bike" onclick="bikeAlerta()">
+        <p><img src="./img/bike.svg">+amor-motor</p>
+      </div>
+      <div class="fun-facts" onclick="funFact()">
+        <p><img src="./img/smile.svg" alt="">fun facts</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <p>Obrigado pelo seu tempo e se quiser, <a href="#"> entre em contato</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="overlay-menu" id="fechar-menu-acao">
+      <div class="menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 menu-itens">
+              <ul>
+                <a href="./sobre.html"><li>Sobre <br><span>Me conheça um pouco mais</span></li></a>
+                <li>Cursos <br><span>Confira minhas vídeo aulas gratuitas</span></li>
+                <li>Contato <br><span>Pode mandar uma mensagem :)</span></li>
+              </ul>
+            </div>
+            <div class="col-md-6 menu-extra">
+              <div class="row">
+                <div class="col-12 close"> <img src="./img/close.svg" onclick="menuFechado()"></div>
+                <div class="col-12 social-menu align-self-end">Me encontre também no LinkedIn ou no Twitter.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay-bike" id="overlay-bike">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="bike-news">
+              <div class="col-12 close-bike text-right"><img src="./img/close.svg"  onclick="bikeAlertaClose()"></div>
+              <h2>A quantidade <br>
+                de atropelamentos <br>
+                de ciclistas cresceu <br>
+                57% em 2020.<br><br>
+                Atropelar ciclista<br>
+                não é acidente,<br>
+                é crime.</h2>
+                <span><img src="./img/bike-icon.svg" alt=""></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay-facts" id="overlay-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="fun-facts">
+              <div class="row">
+                <div class="col-md-10">
+                  <h2>Fun Facts</h2>
+                </div>
+                <div class="col-md-2 close-facts"><img src="./img/close-black.svg" onclick="funFactClose()"></div>
+                <div class="col-md-8 ">
+                  <p id="randTitle">Quanto mais as pessoas me conhecem, <br>
+                    mais elas sabem coisas inusitadas sobre mim.<br><br>
+                    
+                    Então, resolvi aproveitar para brincar com essas <br>
+                    curiosidades bastante perculiares da minha vida.<br><br>
+                    
+                    Enjoy.</p>
+                    
+                    <button onclick="shuffleTitle(); buttonClose()">Conta um Fun Fact aí</button>
+                    <button class="no-button" id="no-button" onclick="funFactClose()">Não tenho interesse</button>
+                </div>
+                <div class="col-md-4">
+                  <img src="https://pbs.twimg.com/profile_images/1037093877562392576/rkRIAXj4_400x400.jpg" class="img-fluid rounded-circle" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+          <svg height="30" width="30">
+            <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+          </svg>
+        </div>
+        
+        <div class="cursor__ball cursor__ball--small">
+          <svg height="10" width="10">
+            <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+          </svg>
+        </div>
+      </div>
+      
+      <!-- Optional JavaScript; choose one of the two! -->
+  
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+      <script src="./js/script.js"></script>
+
+
+  </body>
+</html>
